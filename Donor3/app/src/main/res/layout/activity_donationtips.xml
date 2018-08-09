@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    android:paddingTop="56dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/icon_donationcenter"
+                android:layout_gravity="center" />
+            <Button
+                android:id="@+id/whocandonate_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/rect_button"
+                android:text="@string/donationTips_Who_Can_Donate_Button" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/icon_tick"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:id="@+id/beforedonate_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/rect_button"
+                android:text="@string/donationTips_Before_You_Donate_Button" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/icon_tick"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:id="@+id/duringdonation_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/rect_button"
+                android:text="@string/donationTps_During_Donation_Button" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/icon_tick"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:id="@+id/afterdonating_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/rect_button"
+                android:text="@string/donationTips_After_Donation_Button" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/icon_pregnant"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:id="@+id/healthstatus_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/rect_button"
+                android:text="@string/donationTips_Health_Status_Before_Donation_Button" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/icon_cross"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:id="@+id/myths_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/rect_button"
+                android:text="@string/donationTips_Donation_Myths_Button" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/icon_heart"
+                android:layout_gravity="center"/>
+            <Button
+                android:id="@+id/stories_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/rect_button"
+                android:text="@string/donationTps_Donations_Stories_Button" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/icon_question"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:id="@+id/faq_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/rect_button"
+                android:text="@string/donationTips_Frequently_Asked_Questions_Button" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

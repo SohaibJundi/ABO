@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "105919926459",
+    "firebase_url": "https://give-blood-lebanon.firebaseio.com",
+    "project_id": "give-blood-lebanon",
+    "storage_bucket": "give-blood-lebanon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105919926459:android:bfa002176e1db199",
+        "android_client_info": {
+          "package_name": "com.sourcey.gbl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105919926459-duudqngn9f4vu11pdk6na4oq3oqh4c7k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLtr99_1z7QhtqMWSqtv8bMWLbwSjjpdM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105919926459:android:6f9b857bd20411a1",
+        "android_client_info": {
+          "package_name": "com.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105919926459-duudqngn9f4vu11pdk6na4oq3oqh4c7k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLtr99_1z7QhtqMWSqtv8bMWLbwSjjpdM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

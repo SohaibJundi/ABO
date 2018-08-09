@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    android:paddingTop="56dp"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/Request_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/home_Request_Button"
+            android:textColor="@color/white"
+            android:background="@color/primary_dark"
+            android:layout_marginBottom="15dp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/View_Requests_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/home_View_Request_Button"
+            android:textColor="@color/white"
+            android:background="@color/primary_dark"
+            android:layout_marginBottom="15dp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/needs_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/home_Blood_Needs_Button"
+            android:textColor="@color/white"
+            android:background="@color/primary_dark"
+            android:layout_marginBottom="15dp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/tips_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/home_Donation_Tips_Button"
+            android:textColor="@color/white"
+            android:background="@color/primary_dark"
+            android:layout_marginBottom="15dp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/lang_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/home_Lang_Button"
+            android:textColor="@color/white"
+            android:background="@color/primary_dark"
+            android:layout_marginBottom="15dp" />
+
+    </LinearLayout>
+
+</ScrollView>

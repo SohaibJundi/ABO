@@ -1,0 +1,358 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:2:1-77:12
+	package
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:3:5-43
+		INJECTED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:5:5-75:19
+MERGED from [com.android.support:design:24.2.0] C:\Users\Student\.android\build-cache\e76b4c3ef33d5ee42dfaf1941101bfbdc2aee775\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\Student\.android\build-cache\e9320a64a994798621a3658eb6cfd4c315808709\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\Student\.android\build-cache\3c1ab1d703ae24a679adef3dde5fe4e03bc237db\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\Student\.android\build-cache\ffd7236a55715149adc0c34f54e2e655958b7b79\output\AndroidManifest.xml:23:5-20
+MERGED from [com.wdullaer:materialdatetimepicker:2.3.0] C:\Users\Student\.android\build-cache\1d3ee36ccb0e22252c95c6fbbccd7bb5bc74c6a9\output\AndroidManifest.xml:28:5-20
+MERGED from [com.google.firebase:firebase-core:10.2.1] C:\Users\Student\.android\build-cache\6a7a19a3d317428c7f542ee81da28245a0c84d10\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Student\.android\build-cache\f629321abfc2ea10afcebf9d0ab831a2efb57154\output\AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\Student\.android\build-cache\0db5a1cd44b4eeabe07a8080820f2329ec97a473\output\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\Student\.android\build-cache\34377e028308fffe2f2065237d603c0008918e34\output\AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Student\.android\build-cache\f8c85be0286e344b65f9626deb68d742472a3c27\output\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-auth:10.2.1] C:\Users\Student\.android\build-cache\e5a946bd672e605797f548330b69264c3db091fe\output\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-common:10.2.1] C:\Users\Student\.android\build-cache\bd4d583aeaee1732b9993e8cde7d10e41ad3d9b4\output\AndroidManifest.xml:4:5-7:19
+MERGED from [com.firebase:firebase-jobdispatcher-with-gcm-dep:0.6.0] C:\Users\Student\.android\build-cache\16a8158e5f8f1c5a2e6aabe373b0c645b4ea68aa\output\AndroidManifest.xml:26:5-40:19
+MERGED from [com.google.android.gms:play-services-gcm:10.0.1] C:\Users\Student\.android\build-cache\18e40656db1c5576aca82ca682aec8f952e7d8e6\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-iid:10.0.1] C:\Users\Student\.android\build-cache\086e39d82b5616e6bb678836b755f506f4825612\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\Student\.android\build-cache\2a62620ec996068bc9b6ebe326979952c9557d2e\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\Student\.android\build-cache\372ba7e2cfd3bfb1848f8ecd044824153ef60a5b\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\Student\.android\build-cache\296d63827cb416b72e5a84f6445915419633598c\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.0.0] C:\Users\Student\.android\build-cache\d550c77b1256b2e1ad22977d8a9e42162ed92682\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.0.0] C:\Users\Student\.android\build-cache\48a0b74c21b3a1f40a32f750fe84081eea434435\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.0.0] C:\Users\Student\.android\build-cache\c02194a44ebd0ca19d7f86b05bd1b8bf54af9d2f\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.0.0] C:\Users\Student\.android\build-cache\643727e6ea8663401732a7c10c10a1f513d995f7\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.0.0] C:\Users\Student\.android\build-cache\42e246983eba81a22d7038d81496b463c5b8adb1\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.0.0] C:\Users\Student\.android\build-cache\52b67060a4601d47d9808db1849ef5481a724e22\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Student\.android\build-cache\8fa2051e693e51edca13d31de8ed4ab055de7a76\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:8:9-41
+	android:allowBackup
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:7:9-53
+	android:theme
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:9:9-40
+meta-data#com.google.firebase.messaging.default_notification_icon
+ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:10:9-12:64
+	android:resource
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:12:13-61
+	android:name
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:11:13-83
+meta-data#com.google.firebase.messaging.default_notification_color
+ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:17:9-19:47
+	android:resource
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:19:13-44
+	android:name
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:18:13-84
+activity#lb.edu.aub.cmps253.yzo01.ABO.MainActivity
+ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:21:9-30:20
+	android:label
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:23:13-45
+	android:theme
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:24:13-49
+	android:name
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:22:13-69
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:28:27-74
+activity#lb.edu.aub.cmps253.yzo01.ABO.VerificationActivity
+ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:31:9-33:52
+	android:theme
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:33:13-49
+	android:name
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:32:13-77
+activity#lb.edu.aub.cmps253.yzo01.ABO.PhoneEntryActivity
+ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:34:9-36:52
+	android:theme
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:36:13-49
+	android:name
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:35:13-75
+activity#lb.edu.aub.cmps253.yzo01.ABO.HomeActivity
+ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:37:9-39:47
+	android:theme
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:39:13-44
+	android:name
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:38:13-69
+activity#lb.edu.aub.cmps253.yzo01.ABO.DonateActivity
+ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:40:9-42:47
+	android:theme
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:42:13-44
+	android:name
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:41:13-71
+activity#lb.edu.aub.cmps253.yzo01.ABO.RequestActivity
+ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:43:9-45:47
+	android:theme
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:45:13-44
+	android:name
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:44:13-72
+activity#lb.edu.aub.cmps253.yzo01.ABO.CurrentNeedsActivity
+ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:46:9-48:47
+	android:theme
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:48:13-44
+	android:name
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:47:13-77
+activity#lb.edu.aub.cmps253.yzo01.ABO.NeedsPerCenterActivity
+ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:49:9-51:47
+	android:theme
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:51:13-44
+	android:name
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:50:13-79
+activity#lb.edu.aub.cmps253.yzo01.ABO.ProfileActivity
+ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:52:9-54:53
+	android:theme
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:54:13-50
+	android:name
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:53:13-72
+activity#lb.edu.aub.cmps253.yzo01.ABO.DonationTipsActivity
+ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:55:9-57:47
+	android:theme
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:57:13-44
+	android:name
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:56:13-77
+activity#lb.edu.aub.cmps253.yzo01.ABO.TipsTextActivity
+ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:58:9-60:47
+	android:theme
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:60:13-44
+	android:name
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:59:13-73
+activity#lb.edu.aub.cmps253.yzo01.ABO.ViewRequestActivity
+ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:61:9-63:47
+	android:theme
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:62:13-76
+activity#lb.edu.aub.cmps253.yzo01.ABO.DonationHistoryActivity
+ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:64:9-66:47
+	android:theme
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:66:13-44
+	android:name
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:65:13-80
+service#lb.edu.aub.cmps253.yzo01.ABO.CustomFirebaseMessagingService
+ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:68:9-72:19
+	android:name
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:68:18-92
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:69:13-71:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:70:17-78
+	android:name
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:70:25-75
+activity#lb.edu.aub.cmps253.yzo01.ABO.AfterRequestActivity
+ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:74:9-95
+	android:name
+		ADDED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml:74:19-83
+uses-sdk
+INJECTED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:24.2.0] C:\Users\Student\.android\build-cache\e76b4c3ef33d5ee42dfaf1941101bfbdc2aee775\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\Student\.android\build-cache\e9320a64a994798621a3658eb6cfd4c315808709\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\Student\.android\build-cache\3c1ab1d703ae24a679adef3dde5fe4e03bc237db\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\Student\.android\build-cache\ffd7236a55715149adc0c34f54e2e655958b7b79\output\AndroidManifest.xml:21:5-43
+MERGED from [com.wdullaer:materialdatetimepicker:2.3.0] C:\Users\Student\.android\build-cache\1d3ee36ccb0e22252c95c6fbbccd7bb5bc74c6a9\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.google.firebase:firebase-core:10.2.1] C:\Users\Student\.android\build-cache\6a7a19a3d317428c7f542ee81da28245a0c84d10\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Student\.android\build-cache\f629321abfc2ea10afcebf9d0ab831a2efb57154\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\Student\.android\build-cache\0db5a1cd44b4eeabe07a8080820f2329ec97a473\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\Student\.android\build-cache\34377e028308fffe2f2065237d603c0008918e34\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Student\.android\build-cache\f8c85be0286e344b65f9626deb68d742472a3c27\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-auth:10.2.1] C:\Users\Student\.android\build-cache\e5a946bd672e605797f548330b69264c3db091fe\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-database:10.2.1] C:\Users\Student\.android\build-cache\2950774a5e6f28152d12fc53cbad2a3c0389048d\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:10.2.1] C:\Users\Student\.android\build-cache\d8fa6ea2b386c7cc31cb3b0a0f64ea4bf596c8e5\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:10.2.1] C:\Users\Student\.android\build-cache\bd4d583aeaee1732b9993e8cde7d10e41ad3d9b4\output\AndroidManifest.xml:3:5-43
+MERGED from [com.android.support:recyclerview-v7:24.2.0] C:\Users\Student\.android\build-cache\5d66b7df8f31e68535dad313a398898d312ed8a8\output\AndroidManifest.xml:20:5-43
+MERGED from [com.firebase:firebase-jobdispatcher-with-gcm-dep:0.6.0] C:\Users\Student\.android\build-cache\16a8158e5f8f1c5a2e6aabe373b0c645b4ea68aa\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.google.android.gms:play-services-gcm:10.0.1] C:\Users\Student\.android\build-cache\18e40656db1c5576aca82ca682aec8f952e7d8e6\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-iid:10.0.1] C:\Users\Student\.android\build-cache\086e39d82b5616e6bb678836b755f506f4825612\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\Student\.android\build-cache\2a62620ec996068bc9b6ebe326979952c9557d2e\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\Student\.android\build-cache\372ba7e2cfd3bfb1848f8ecd044824153ef60a5b\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\Student\.android\build-cache\296d63827cb416b72e5a84f6445915419633598c\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.0.0] C:\Users\Student\.android\build-cache\d550c77b1256b2e1ad22977d8a9e42162ed92682\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.0.0] C:\Users\Student\.android\build-cache\48a0b74c21b3a1f40a32f750fe84081eea434435\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.0.0] C:\Users\Student\.android\build-cache\c02194a44ebd0ca19d7f86b05bd1b8bf54af9d2f\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.0.0] C:\Users\Student\.android\build-cache\643727e6ea8663401732a7c10c10a1f513d995f7\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.0.0] C:\Users\Student\.android\build-cache\42e246983eba81a22d7038d81496b463c5b8adb1\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.0.0] C:\Users\Student\.android\build-cache\52b67060a4601d47d9808db1849ef5481a724e22\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Student\.android\build-cache\8fa2051e693e51edca13d31de8ed4ab055de7a76\output\AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.2.0] C:\Users\Student\.android\build-cache\e9320a64a994798621a3658eb6cfd4c315808709\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Student\AndroidStudioProjects\Donor3\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.VIBRATE
+ADDED from [com.wdullaer:materialdatetimepicker:2.3.0] C:\Users\Student\.android\build-cache\1d3ee36ccb0e22252c95c6fbbccd7bb5bc74c6a9\output\AndroidManifest.xml:26:5-66
+	android:name
+		ADDED from [com.wdullaer:materialdatetimepicker:2.3.0] C:\Users\Student\.android\build-cache\1d3ee36ccb0e22252c95c6fbbccd7bb5bc74c6a9\output\AndroidManifest.xml:26:22-63
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Student\.android\build-cache\f629321abfc2ea10afcebf9d0ab831a2efb57154\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\Student\.android\build-cache\0db5a1cd44b4eeabe07a8080820f2329ec97a473\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Student\.android\build-cache\f8c85be0286e344b65f9626deb68d742472a3c27\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-gcm:10.0.1] C:\Users\Student\.android\build-cache\18e40656db1c5576aca82ca682aec8f952e7d8e6\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:10.0.1] C:\Users\Student\.android\build-cache\086e39d82b5616e6bb678836b755f506f4825612\output\AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Student\.android\build-cache\f629321abfc2ea10afcebf9d0ab831a2efb57154\output\AndroidManifest.xml:20:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Student\.android\build-cache\f629321abfc2ea10afcebf9d0ab831a2efb57154\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\Student\.android\build-cache\0db5a1cd44b4eeabe07a8080820f2329ec97a473\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Student\.android\build-cache\f8c85be0286e344b65f9626deb68d742472a3c27\output\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Student\.android\build-cache\f629321abfc2ea10afcebf9d0ab831a2efb57154\output\AndroidManifest.xml:21:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Student\.android\build-cache\f629321abfc2ea10afcebf9d0ab831a2efb57154\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\Student\.android\build-cache\0db5a1cd44b4eeabe07a8080820f2329ec97a473\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Student\.android\build-cache\f8c85be0286e344b65f9626deb68d742472a3c27\output\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Student\.android\build-cache\f629321abfc2ea10afcebf9d0ab831a2efb57154\output\AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Student\.android\build-cache\f629321abfc2ea10afcebf9d0ab831a2efb57154\output\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\Student\.android\build-cache\0db5a1cd44b4eeabe07a8080820f2329ec97a473\output\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Student\.android\build-cache\f629321abfc2ea10afcebf9d0ab831a2efb57154\output\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Student\.android\build-cache\f629321abfc2ea10afcebf9d0ab831a2efb57154\output\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Student\.android\build-cache\f629321abfc2ea10afcebf9d0ab831a2efb57154\output\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Student\.android\build-cache\f629321abfc2ea10afcebf9d0ab831a2efb57154\output\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Student\.android\build-cache\f629321abfc2ea10afcebf9d0ab831a2efb57154\output\AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Student\.android\build-cache\f629321abfc2ea10afcebf9d0ab831a2efb57154\output\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Student\.android\build-cache\f629321abfc2ea10afcebf9d0ab831a2efb57154\output\AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Student\.android\build-cache\f629321abfc2ea10afcebf9d0ab831a2efb57154\output\AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Student\.android\build-cache\f629321abfc2ea10afcebf9d0ab831a2efb57154\output\AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Student\.android\build-cache\f629321abfc2ea10afcebf9d0ab831a2efb57154\output\AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Student\.android\build-cache\f629321abfc2ea10afcebf9d0ab831a2efb57154\output\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\Student\.android\build-cache\0db5a1cd44b4eeabe07a8080820f2329ec97a473\output\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Student\.android\build-cache\f629321abfc2ea10afcebf9d0ab831a2efb57154\output\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Student\.android\build-cache\f629321abfc2ea10afcebf9d0ab831a2efb57154\output\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\Student\.android\build-cache\f629321abfc2ea10afcebf9d0ab831a2efb57154\output\AndroidManifest.xml:32:16-87
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\Student\.android\build-cache\34377e028308fffe2f2065237d603c0008918e34\output\AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\Student\.android\build-cache\34377e028308fffe2f2065237d603c0008918e34\output\AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\Student\.android\build-cache\34377e028308fffe2f2065237d603c0008918e34\output\AndroidManifest.xml:23:18-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Student\.android\build-cache\f8c85be0286e344b65f9626deb68d742472a3c27\output\AndroidManifest.xml:22:5-81
+MERGED from [com.google.android.gms:play-services-gcm:10.0.1] C:\Users\Student\.android\build-cache\18e40656db1c5576aca82ca682aec8f952e7d8e6\output\AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:10.0.1] C:\Users\Student\.android\build-cache\086e39d82b5616e6bb678836b755f506f4825612\output\AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Student\.android\build-cache\f8c85be0286e344b65f9626deb68d742472a3c27\output\AndroidManifest.xml:22:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Student\.android\build-cache\f8c85be0286e344b65f9626deb68d742472a3c27\output\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Student\.android\build-cache\f8c85be0286e344b65f9626deb68d742472a3c27\output\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Student\.android\build-cache\f8c85be0286e344b65f9626deb68d742472a3c27\output\AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Student\.android\build-cache\f8c85be0286e344b65f9626deb68d742472a3c27\output\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Student\.android\build-cache\f8c85be0286e344b65f9626deb68d742472a3c27\output\AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Student\.android\build-cache\f8c85be0286e344b65f9626deb68d742472a3c27\output\AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Student\.android\build-cache\f8c85be0286e344b65f9626deb68d742472a3c27\output\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Student\.android\build-cache\f8c85be0286e344b65f9626deb68d742472a3c27\output\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Student\.android\build-cache\f8c85be0286e344b65f9626deb68d742472a3c27\output\AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Student\.android\build-cache\f8c85be0286e344b65f9626deb68d742472a3c27\output\AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Student\.android\build-cache\f8c85be0286e344b65f9626deb68d742472a3c27\output\AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Student\.android\build-cache\f8c85be0286e344b65f9626deb68d742472a3c27\output\AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Student\.android\build-cache\f8c85be0286e344b65f9626deb68d742472a3c27\output\AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Student\.android\build-cache\f8c85be0286e344b65f9626deb68d742472a3c27\output\AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Student\.android\build-cache\f8c85be0286e344b65f9626deb68d742472a3c27\output\AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Student\.android\build-cache\f8c85be0286e344b65f9626deb68d742472a3c27\output\AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Student\.android\build-cache\f8c85be0286e344b65f9626deb68d742472a3c27\output\AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Student\.android\build-cache\f8c85be0286e344b65f9626deb68d742472a3c27\output\AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Student\.android\build-cache\f8c85be0286e344b65f9626deb68d742472a3c27\output\AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Student\.android\build-cache\f8c85be0286e344b65f9626deb68d742472a3c27\output\AndroidManifest.xml:43:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Student\.android\build-cache\f8c85be0286e344b65f9626deb68d742472a3c27\output\AndroidManifest.xml:44:13-46:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Student\.android\build-cache\f8c85be0286e344b65f9626deb68d742472a3c27\output\AndroidManifest.xml:44:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Student\.android\build-cache\f8c85be0286e344b65f9626deb68d742472a3c27\output\AndroidManifest.xml:45:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Student\.android\build-cache\f8c85be0286e344b65f9626deb68d742472a3c27\output\AndroidManifest.xml:45:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\Student\.android\build-cache\bd4d583aeaee1732b9993e8cde7d10e41ad3d9b4\output\AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\Student\.android\build-cache\bd4d583aeaee1732b9993e8cde7d10e41ad3d9b4\output\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\Student\.android\build-cache\bd4d583aeaee1732b9993e8cde7d10e41ad3d9b4\output\AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\Student\.android\build-cache\bd4d583aeaee1732b9993e8cde7d10e41ad3d9b4\output\AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\Student\.android\build-cache\bd4d583aeaee1732b9993e8cde7d10e41ad3d9b4\output\AndroidManifest.xml:6:79-143
+service#com.firebase.jobdispatcher.GooglePlayReceiver
+ADDED from [com.firebase:firebase-jobdispatcher-with-gcm-dep:0.6.0] C:\Users\Student\.android\build-cache\16a8158e5f8f1c5a2e6aabe373b0c645b4ea68aa\output\AndroidManifest.xml:32:9-39:19
+	android:exported
+		ADDED from [com.firebase:firebase-jobdispatcher-with-gcm-dep:0.6.0] C:\Users\Student\.android\build-cache\16a8158e5f8f1c5a2e6aabe373b0c645b4ea68aa\output\AndroidManifest.xml:34:13-36
+	android:permission
+		ADDED from [com.firebase:firebase-jobdispatcher-with-gcm-dep:0.6.0] C:\Users\Student\.android\build-cache\16a8158e5f8f1c5a2e6aabe373b0c645b4ea68aa\output\AndroidManifest.xml:35:13-93
+	android:name
+		ADDED from [com.firebase:firebase-jobdispatcher-with-gcm-dep:0.6.0] C:\Users\Student\.android\build-cache\16a8158e5f8f1c5a2e6aabe373b0c645b4ea68aa\output\AndroidManifest.xml:33:13-73
+intent-filter#com.google.android.gms.gcm.ACTION_TASK_READY
+ADDED from [com.firebase:firebase-jobdispatcher-with-gcm-dep:0.6.0] C:\Users\Student\.android\build-cache\16a8158e5f8f1c5a2e6aabe373b0c645b4ea68aa\output\AndroidManifest.xml:36:13-38:29
+action#com.google.android.gms.gcm.ACTION_TASK_READY
+ADDED from [com.firebase:firebase-jobdispatcher-with-gcm-dep:0.6.0] C:\Users\Student\.android\build-cache\16a8158e5f8f1c5a2e6aabe373b0c645b4ea68aa\output\AndroidManifest.xml:37:17-87
+	android:name
+		ADDED from [com.firebase:firebase-jobdispatcher-with-gcm-dep:0.6.0] C:\Users\Student\.android\build-cache\16a8158e5f8f1c5a2e6aabe373b0c645b4ea68aa\output\AndroidManifest.xml:37:25-84
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\Student\.android\build-cache\2a62620ec996068bc9b6ebe326979952c9557d2e\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\Student\.android\build-cache\2a62620ec996068bc9b6ebe326979952c9557d2e\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\Student\.android\build-cache\2a62620ec996068bc9b6ebe326979952c9557d2e\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\Student\.android\build-cache\2a62620ec996068bc9b6ebe326979952c9557d2e\output\AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\Student\.android\build-cache\296d63827cb416b72e5a84f6445915419633598c\output\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\Student\.android\build-cache\296d63827cb416b72e5a84f6445915419633598c\output\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\Student\.android\build-cache\296d63827cb416b72e5a84f6445915419633598c\output\AndroidManifest.xml:20:20-65

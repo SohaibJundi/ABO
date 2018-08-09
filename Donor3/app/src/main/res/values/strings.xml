@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">ABO±</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Start top bar -->
+    <string name="topBar_Home">Home</string>
+    <string name="topBar_Profile">Profile</string>
+    <string name="topBar_Logout">Logout</string>
+    <!-- end top bar -->
+
+    <!-- Start Home Activity -->
+    <string name="home_Request_Button">Request Blood</string>
+    <string name="home_View_Request_Button">View Request</string>
+    <string name="home_Blood_Needs_Button">Current Blood Needs</string>
+    <string name="home_Donation_Tips_Button">Donation Tips</string>
+    <string name="home_Lang_Button">العربية</string>
+    <!-- End Home Activity -->
+
+    <!-- Start Request Activity -->
+    <string name="request_Hospital_label">Hospital</string>
+    <string name="request_Blood_Type_label">Blood Type</string>
+    <string name="request_Units_number_label">Number of Units</string>
+    <string name="request_Send_Request_Button">Send Request</string>
+    <string name="request_Recipient_Name_Label">Recipient Name</string>
+    <string name="request_Platelets_Only_checkBox">Platelets Only</string>
+    <!-- End Request Activity -->
+
+    <!-- Start Donation Tips Activity -->
+    <string name="donationTips_Who_Can_Donate_Button">Who can Donate</string>
+    <string name="donationTips_Before_You_Donate_Button">Before You Donate</string>
+    <string name="donationTps_During_Donation_Button">During Donation</string>
+    <string name="donationTips_After_Donation_Button">After Donation</string>
+    <string name="donationTips_Health_Status_Before_Donation_Button">Health Status Before Donation</string>
+    <string name="donationTips_Donation_Myths_Button">Donation Myths</string>
+    <string name="donationTps_Donations_Stories_Button">Donations Stories</string>
+    <string name="donationTips_Frequently_Asked_Questions_Button">Frequently Asked Questions</string>
+    <!-- Start Donation Tips Activity -->
+
+    <!-- Start Profile Activity -->
+    <string name="profile_Full_Name_EditText_Hint">Full Name</string>
+    <string name="profile_Phone_Number_EditText_Hint">Phone Number</string>
+    <string name="profile_Address_EditText_Hint">Address</string>
+    <string name="profile_Birth_Day_Button">Birth Day</string>
+    <string name="profile_Update_Profile_Button">Update Profile</string>
+    <string name="profile_genderSpinner_Male">Male</string>
+    <string name="profile_genderSpinner_Female">Female</string>
+    <!-- End Profile Activity -->
+
+    <!-- Start View Request Activity -->
+    <string name="viewRequest_Fetching_Label">Fetching ...</string>
+    <string name="viewRequest_Cancel_Request_Button">Cancel request</string>
+    <string name="viewRequest_Confirm_donation_Button">Confirm donation</string>
+    <string name="viewRequest_No_Request_Label">No request have been found</string>
+    <!-- End View Request Activity -->
+
+    <!-- Start After Request Activity -->
+    <string name="afterRequest_TextView">Nous espérons que (|||) va bien vite</string>
+    <!-- End After Request Activity -->
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="24dp"
+            android:text="@string/app_name"
+            android:gravity="center"
+            android:textSize="50sp"
+            android:textColor="#ffffff"
+            android:textIsSelectable="true"
+            android:textStyle="italic"
+            android:typeface="monospace" />
+
+        <EditText
+            android:id="@+id/input_nameprofile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/profile_Full_Name_EditText_Hint"
+            android:inputType="textPersonName" />
+
+
+        <EditText
+            android:id="@+id/input_mobileprofile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:hint="@string/profile_Phone_Number_EditText_Hint"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/adressprofile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/profile_Address_EditText_Hint"
+            android:inputType="text" />
+
+
+        <Spinner
+            android:id="@+id/genderprofile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <Spinner
+            android:id="@+id/bloodgroupprofile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/dobprofile"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/round_button"
+            android:padding="12dp"
+            android:text="@string/profile_Birth_Day_Button"
+            android:layout_gravity="center"
+            android:gravity="center" />
+
+        <!-- Signup Button -->
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_updateprofile"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:text="@string/profile_Update_Profile_Button"
+            android:textColor="@color/white"
+            android:gravity="center" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="lb.edu.aub.cmps253.yzo01.ABO">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_donationcenter"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/icon_donationcenter" />
+        <!--
+             Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/white" />
+
+        <activity
+            android:name="lb.edu.aub.cmps253.yzo01.ABO.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.Dark">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="lb.edu.aub.cmps253.yzo01.ABO.VerificationActivity"
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name="lb.edu.aub.cmps253.yzo01.ABO.PhoneEntryActivity"
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name="lb.edu.aub.cmps253.yzo01.ABO.HomeActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="lb.edu.aub.cmps253.yzo01.ABO.DonateActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="lb.edu.aub.cmps253.yzo01.ABO.RequestActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="lb.edu.aub.cmps253.yzo01.ABO.CurrentNeedsActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="lb.edu.aub.cmps253.yzo01.ABO.NeedsPerCenterActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="lb.edu.aub.cmps253.yzo01.ABO.ProfileActivity"
+            android:theme="@style/AppTheme.Dark2" />
+        <activity
+            android:name="lb.edu.aub.cmps253.yzo01.ABO.DonationTipsActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="lb.edu.aub.cmps253.yzo01.ABO.TipsTextActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="lb.edu.aub.cmps253.yzo01.ABO.ViewRequestActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="lb.edu.aub.cmps253.yzo01.ABO.DonationHistoryActivity"
+            android:theme="@style/AppTheme" />
+
+        <service android:name="lb.edu.aub.cmps253.yzo01.ABO.CustomFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name="lb.edu.aub.cmps253.yzo01.ABO.AfterRequestActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Student\AndroidStudioProjects\Donor3\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a61d3891f45b92bdd18145905b8506d6235bb026">
+        <dex dex="C:\Users\Student\AndroidStudioProjects\Donor3\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_734f90dd0b5a6c9a87638611a8902aadb9c1828a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Student\AndroidStudioProjects\Donor3\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\Student\AndroidStudioProjects\Donor3\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_bf0ba474e287fb5c03a53afabc57bf9ce1c6492e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Student\Downloads\Compressed\android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\Student\AndroidStudioProjects\Donor3\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_dea386d40f886395ee2a08f50e2ef2f1744430ff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Student\.android\build-cache\8fa2051e693e51edca13d31de8ed4ab055de7a76\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\Student\AndroidStudioProjects\Donor3\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ca3e86b7c0437a0aeb38b214a72ea2996d708a2d\classes.dex" />
+    </item>
+
+</items>

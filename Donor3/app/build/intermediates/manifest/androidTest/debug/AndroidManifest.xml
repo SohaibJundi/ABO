@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="lb.edu.aub.cmps253.yzo01.Donor_3.test">
+
+    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="24" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <instrumentation android:name="android.test.InstrumentationTestRunner"
+                     android:targetPackage="lb.edu.aub.cmps253.yzo01.Donor_3"
+                     android:handleProfiling="false"
+                     android:functionalTest="false"
+                     android:label="Tests for lb.edu.aub.cmps253.yzo01.Donor_3"/>
+</manifest>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ABO±</string>
+    <string name="action_settings">paramètres</string>
+
+    <!-- Start top bar -->
+    <string name="topBar_Home">Page d’accueil</string>
+    <string name="topBar_Profile">Profil</string>
+    <string name="topBar_Logout">se déconnecter</string>
+    <!-- end top bar -->
+
+    <!-- Home Activiy -->
+    <string name="home_Request_Button">Demander du sang</string>
+    <string name="home_View_Request_Button">Voir la demands</string>
+    <string name="home_Blood_Needs_Button">Les bosons sanguine actuels</string>
+    <string name="home_Donation_Tips_Button">Counseils de dons </string>
+    <string name="home_Lang_Button">French</string>
+    <!-- Home Activiy -->
+
+    <!-- Start Request Activity -->
+    <string name="request_Hospital_label">Nome de l’hopital</string>
+    <string name="request_Blood_Type_label">Groupe Sanguin </string>
+    <string name="request_Units_number_label">Nombre de</string>
+    <string name="request_Send_Request_Button">Envoyer la demande</string>
+    <string name="request_Recipient_Name_Label">le nom du patient</string>
+    <string name="request_Platelets_Only_checkBox">Seulement des plaquettes</string>
+    <!-- End Request Activity -->
+
+    <!-- Start Donation Tips Activity -->
+    <string name="donationTips_Who_Can_Donate_Button">Qui put faire un don</string>
+    <string name="donationTips_Before_You_Donate_Button">Avant de faire un don </string>
+    <string name="donationTps_During_Donation_Button">Pendant le don</string>
+    <string name="donationTips_After_Donation_Button"> Apres don</string>
+    <string name="donationTips_Health_Status_Before_Donation_Button">L’etat de sane avant le don</string>
+    <string name="donationTips_Donation_Myths_Button">Mythes de don</string>
+    <string name="donationTps_Donations_Stories_Button">Stories</string>
+    <string name="donationTips_Frequently_Asked_Questions_Button">Frequently asked questions</string>
+    <!-- Start Donation Tips Activity -->
+
+    <!-- Start Request Activity -->
+    <string name="profile_Full_Name_EditText_Hint">Nom et Prenom</string>
+    <string name="profile_Phone_Number_EditText_Hint">numéro de téléphone
+</string>
+    <string name="profile_Address_EditText_Hint">adresse</string>
+    <string name="profile_Birth_Day_Button">Date de Naissance</string>
+    <string name="profile_Update_Profile_Button">Actualiser le profil </string>
+    <string name="profile_genderSpinner_Male">Male</string>
+    <string name="profile_genderSpinner_Female">Female</string>
+    <!-- End Request Activity -->
+
+    <!-- Start View Request Activity -->
+    <string name="viewRequest_Fetching_Label">S\'il vous plaît attendre</string>
+    <string name="viewRequest_Cancel_Request_Button">annuler la demande</string>
+    <string name="viewRequest_Confirm_donation_Button">confirmer le don</string>
+    <string name="viewRequest_No_Request_Label">Non envoyer une demande</string>
+    <!-- End View Request Activity -->
+
+    <!-- Start After Request Activity -->
+    <string name="afterRequest_TextView">Nous espérons que (|||) va bien vite</string>
+    <!-- End After Request Activity -->
+</resources>

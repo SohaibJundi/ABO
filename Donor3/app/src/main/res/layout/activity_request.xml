@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    android:paddingTop="56dp"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/request_Hospital_label"
+            android:textColor="@color/primary_dark"
+            android:textSize="15sp"
+            android:layout_gravity="center"/>
+
+        <Spinner
+            android:id="@+id/centers_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/request_Blood_Type_label"
+            android:textColor="@color/primary_dark"
+            android:textSize="15sp"
+            android:layout_gravity="center"/>
+
+        <Spinner
+            android:id="@+id/bloodtype_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:clickable="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/request_Units_number_label"
+            android:textColor="@color/primary_dark"
+            android:textSize="15sp"
+            android:layout_gravity="center"/>
+
+        <Spinner
+            android:id="@+id/units_number_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:clickable="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/request_Recipient_Name_Label"
+            android:textColor="@color/primary_dark"
+            android:textSize="15sp"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recipient_name_EditText"
+            android:textColor="@color/primary_dark"
+            android:hint="@string/request_Recipient_Name_Label"/>
+
+        <CheckBox
+            android:id="@+id/platelets_only_checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/request_Platelets_Only_checkBox"
+            android:textColor="@color/primary_dark"
+            android:checked="true"
+            android:theme="@style/RedCheckBox"/>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/bookdonation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/rect_button"
+            android:padding="10dp"
+            android:text="@string/request_Send_Request_Button"
+            android:textColor="#ffffff" />
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<TextView android:id="@+id/centernameandadresstext"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:text="AUH(American University Hospital)\n Adress: Beirut, Bliss Street\n\nBlood Types Needed"
+    android:textStyle="bold"
+    android:textSize="20dp"
+    android:textColor="@color/black"
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/iron"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="52dp"
+            android:layout_height="wrap_content"
+            android:text="3 Units"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+         />
+        <TextView
+
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Group A+"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_weight="0.95"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium Urgency"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/iron"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="52dp"
+            android:layout_height="wrap_content"
+            android:text="10 Units"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+        <TextView
+
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Group B+"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_weight="0.95"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Low Urgency"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/iron"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="52dp"
+            android:layout_height="wrap_content"
+            android:text="5 Units"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+        <TextView
+
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Group O+"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_weight="0.95"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="High Urgency"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/iron"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="52dp"
+            android:layout_height="wrap_content"
+            android:text="5 Units"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+        <TextView
+
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Group AB-"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_weight="0.95"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Low Urgency"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/iron"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="52dp"
+            android:layout_height="wrap_content"
+            android:text="10 Units"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+        <TextView
+
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Group O-"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_weight="0.95"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium Urgency"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+
+
+
+    <Button
+        android:id="@+id/donatenow_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/rect_button"
+        android:text="Donate Now!"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        />
+
+
+
+
+
+</LinearLayout>
+</ScrollView>
+
+
